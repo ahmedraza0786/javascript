@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>PICK & SAVE / PRODUCTS / WIRELESS CHARGER</title>
+    <link rel="icon" href="images/logo 1.jpg">
+    <Link rel="stylesheet" href="PICK&SAVE.CSS"></Link>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />    
+</head>
+<body>
+    <nav class="nav1">
+        <ul class="ul1">
+            <li class="li1"><a href="home.html">HOME</a></li>
+            <li class="li1"><a href="ABOUTUS.HTML">ABOUT US</a></li>
+            <li class="li1"><a href="product.html">PRODUCTS</a></li>
+            <li class="li1"><a href="DASHBORD.HTML">DASHBORD</a></li>
+            <li class="li1"><a href="LOGIN.HTML">LOG IN</a></li>
+        </ul>
+    </nav>
+    <nav class="nav2">
+        
+        <img class="LOGO" src="images/logo 1.jpg">
+        <ul class="ul2">
+    <INput class="input1" placeholder="Search In Pick & Save"></INput>
+    <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+        <button class="download">Download the app</button>
+</ul>
+    </nav>
+
+
+
+<body class="b1">
+    <div class="productdetail">
+        <div class="productdetail1">
+            <img src="images/charger.jpg">
+        </div>
+        <div class="productdetail1">
+            <h1>WIRELESS CHARGER<br> ITS CAN BE ALSO USE IN IPHONE<BR>RS : 5100/=</h1>       
+            <h3>Color</h3>
+            <select name="color">
+                <option value="black">Black</option>
+                <option value="black">White</option>
+                <option value="black">Red</option>
+            </select>
+            <h3>Quantity</h3>
+            <div class="card">
+            <button class="a101" onclick="decrment()">-</button>
+        <h3 id="root"></h3>
+        <button class="a101" onclick="incrment()">+</button>
+    <script>
+        var data=0;
+        document.getElementById("root").innerText=data;
+        function decrment(){
+            data=data-1;
+            document.getElementById("root").innerText=data;
+        }function incrment(){
+            data=data+1;
+            document.getElementById("root").innerText=data;
+        }
+    </script>
+
+
+    <button class="cart12">ADD TO CART</button>
+    <button class="cart12">BUY NOW</button>
+
+</div>    
+</div>
+</div>
+</body>
+
+<footer>
+    <div class="foooter">
+     <div class="footer1">
+    <center><h3>ABOUT US</h3></center>
+   <center> <p>we established in 2012 with the name of DBA TRADERS.<br>
+ we have a two wharehouses in karachi. <br>
+</p></center>
+</div>
+<div class="footer1">
+ <center><h3>CONTACT US</h3></center>
+ <center><h5>EMAIL</h5></center>
+ <center><p>frenterprises50@gmail.com</p></center>
+ <center><h5>PHONE NUMBER</h5></center>
+ <center><p>00923162003540</p></center>
+</div>
+ <div class="footer1">
+ <center><h3>OFFICE ADDRESS</h3></center>
+ <center><P>House Number # 192 j, area.<br>
+ korangi no # 5 karachi.</P></center>
+</div>
+
+
+  </div>
+
+ </div>
+ </footer>
+</html>
